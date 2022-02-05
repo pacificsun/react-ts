@@ -12,3 +12,9 @@ interface ChildProps {
 export const Child = ({ color }: ChildProps) => {
   return <div>{color}</div>;
 };
+
+// event better way is below since above code block don't makes sure it's react component.
+
+export const ChildAsFC: React.FC<ChildProps> = ({ color }) => {
+  return <div>{color}</div>;
+};
