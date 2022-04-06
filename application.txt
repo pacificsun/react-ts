@@ -1,0 +1,8 @@
+.tsx when file contains react components
+.ts when file contains no react components but c like redux, reducers  
+
+# Handling Props
+
+-> child and Parents files
+-> child is supposed to get props from parents so we define an interface in Child
+-> 
