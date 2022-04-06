@@ -5,4 +5,6 @@
 
 -> child and Parents files
 -> child is supposed to get props from parents so we define an interface in Child
--> 
+# Handling States
+
+-> Type inference

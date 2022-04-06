@@ -17,6 +17,7 @@ export const GuestList: React.FC = () => {
           <li key={guest}>{guest}</li>
         ))}
       </ul>
+      {/* Controlled input */}
       <input value={name} onChange={(e) => setName(e.target.value)} />
       <button onClick={onClick}>Add Guest</button>
     </div>

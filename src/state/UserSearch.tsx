@@ -21,8 +21,11 @@ export const UserSearch: React.FC = () => {
     <div>
       User Search
       <input value={name} onChange={(e) => setName(e.target.value)} />
-      <button onClick={onClick}></button>
-      <div>{user?.name}</div>
+      <button onClick={onClick}>Search</button>
+      <div>
+        {user?.name}
+        {user?.age}
+      </div>
     </div>
   );
 };
